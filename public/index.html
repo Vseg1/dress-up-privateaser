@@ -1,10 +1,24 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<html lang='en'>
 <html>
   <head>
+    <meta charset='UTF-8'/>
     <title>CSS/HTML Workshop with Privateaser</title>
   </head>
+
   <body>
+
+    <div class = 'centrer'>
+
+  <h1>Hello, <br /> <br />
+
+    <p class='customer'>This is the customer section</p>
+
+  </h1>
     <div id="bar">
+
       <input class="js-name" type="text" placeholder="Bar name"/>
       <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
       <input class="js-price-by-person" type="number" placeholder="Price by person"/>
@@ -13,11 +27,15 @@
       <input class="js-name" type="text" placeholder="Booker name"/>
       <input class="js-time" type="number" placeholder="Time in h"/>
       <input class="js-persons" type="number" placeholder="Persons"/>
+      <br /> <br />
+      Deductible option :
       <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
-    <script src="privateaser.js"></script>
-    <script src="index.js"></script>
+    <script src="privateaser.js" class = 'jscode'></script>
+    <script src="index.js" class = 'jscode'></script>
+
+  </div>
   </body>
 </html>

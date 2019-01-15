@@ -1,0 +1,42 @@
+body {
+  color: #414141;
+  background-color: #EEEEEE;
+    font-size: 18px;
+background-image:url(https://article.images.consumerreports.org/prod/content/dam/CRO%20Images%202018/Health/April/CR-Health-Inlinehero-bananas-good-for-you-0418);
+}
+head {
+  line-break: 3
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+.customer{
+  color: #123456;
+  font-style: italic;
+}
+
+.text{
+  color : #456332;
+  font-style : bold;
+
+}
+
+.centrer {
+  text-align: center;
+}
+
+.margin{
+  font-size : 13px;
+  line-height:50px;
+}
+
+.jscode{
+    font-style: italic;
+    color: #123456;
+    text-align: center;
+}
